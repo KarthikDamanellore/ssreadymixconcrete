@@ -1,0 +1,213 @@
+.NavbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 100px;
+  align-items: center;
+}
+
+.NavbarContainerLogo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.NavbarMenuItems {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #000;
+  gap: 25px;
+}
+
+.NavbarContainerMenu ul li {
+  font-family: "OpenSans-Bold";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.NavbarContainerMenu ul button {
+  font-family: "OpenSans-Medium";
+  font-size: 12px;
+  cursor: pointer;
+  padding: 6px 12px;
+  background-color: #ff9800;
+  color: #fff;
+  border: 2px solid #ff9800;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.NavbarContainerMobileMenu {
+  display: none;
+}
+
+.checkButton {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.myCheckBox {
+  display: none;
+}
+
+@media screen and (max-width: 428px) {
+  .NavbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+  }
+
+  .NavbarContainerLogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .NavbarContainerMenu ul {
+    display: none;
+  }
+
+  .NavbarContainerMobileMenu {
+    display: block;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul li {
+    font-size: 20px;
+  }
+
+  .NavbarContainerMobileMenu button {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+  }
+
+  .NavbarContainerMobileMenu ul li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .NavbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: beige;
+  }
+
+  .NavbarContainerLogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .NavbarContainerMenu ul {
+    display: none;
+  }
+
+  .NavbarContainerMobileMenu {
+    display: block;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul li {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .NavbarContainerMobileMenu button {
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+  }
+
+  .NavbarContainerMobileMenu ul li:nth-child(4) {
+    display: none;
+  }
+}
+
+/* Tablet viwe from 768px to 990px */
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .NavbarContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .NavbarContainerLogo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .NavbarContainerMenu ul {
+    display: none;
+  }
+
+  .NavbarContainerMobileMenu {
+    display: block;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+  }
+
+  .NavbarContainerMobileMenu ul li {
+    font-size: 20px;
+  }
+  .NavbarContainerMobileMenu ul li:nth-child(2) {
+    display: none;
+  }
+
+  .NavbarContainerMobileMenu ul li:nth-child(3) {
+    color: #fff;
+  }
+
+  .NavbarContainerMobileMenu ul li:nth-child(4) {
+    display: block;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 4px;
+    color: #bbb;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .NavbarContainerMobileMenu button {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #ff9800;
+    background-color: #ff9800;
+    color: #fff;
+  }
+}

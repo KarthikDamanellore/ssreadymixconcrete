@@ -1,0 +1,117 @@
+.galleryBottonContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets//images/Banner.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.galleryContainer {
+  background-color: #f6f6f6;
+}
+
+.galleryImg {
+  width: 520px;
+  height: 350px;
+}
+
+.photoGalleryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding-top: 50px;
+}
+.photoGalleryOuterContainerStyle {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.photoGalleryHeading h3{
+  font-family:"OpenSans-Light";
+  font-size: 20px;
+}
+
+
+/* Media Query start  */
+
+/* From 768px to 990px start */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .photoGalleryOuterContainerStyle {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
+    /* padding-bottom: 200px; */
+    padding: 0px 30px 200px 30px;
+  }
+
+  .galleryImg {
+    width: 100%;
+    height: 200px;
+    animation: animate 0.5s linear;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateY(100px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+/* From 768px to 990px End */
+/* Tablet View Start */
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .photoGalleryOuterContainerStyle {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: center;
+    padding: 0px 30px 200px 30px;
+  }
+
+  .galleryImg {
+    width: 100%;
+    height: 200px;
+    animation: animate 0.5s linear;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: translateY(100px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+/* Tablet View End */
+
+/* ---Mobile View start */
+
+@media screen and (max-width: 428px) {
+  .photoGalleryOuterContainerStyle {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+    /* padding-bottom: 200px; */
+    padding: 0px 30px 100px 30px;
+  }
+
+  .galleryImg {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* Mobile View End */
+
+/* Media Query End */

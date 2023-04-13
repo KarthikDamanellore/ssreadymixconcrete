@@ -1,0 +1,36 @@
+.contactsContainer {
+  border-right: 1px solid #e5e5e5;
+}
+
+.contactsInsideContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+.contactsContainer span {
+  color: orange;
+  font-size: 20px;
+}
+.contactsContainer h5 {
+  font-size: 16px;
+  font-family: "OpenSans-Medium";
+}
+.contactsContainer p {
+  font-size: 14px;
+  font-family: "OpenSans-Medium";
+  color: #bbb;
+}
+
+@media screen and (max-width: 428px) {
+  .contactsContainer {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .contactsContainer {
+    border: none;
+  }
+}

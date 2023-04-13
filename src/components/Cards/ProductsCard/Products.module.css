@@ -1,0 +1,210 @@
+*{
+    font-family: "HelveticaNeue Medium";
+}
+
+.productsContainerCardsMain{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    padding: 50px 200px;
+}
+
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}
+
+.productsContainerHeading h3{
+    font-family:Helvetica;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #666;
+}
+
+.productsContainerCards{
+    border-radius: 15px;
+    background-blend-mode: luminosity;
+    box-shadow: 0 6px 30px 0 #0000001b;
+    background-image: linear-gradient(#fff,#fff);
+    border: solid 1px #e6e6e6;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;    
+}
+
+.productsContainerCardsHover{
+    position: relative;  
+}
+
+.ProductsDate{
+    font-size: 16px;
+    color: #bbb;
+    font-weight: 300;
+    font-style: italic;
+}
+.productsContainerCard_img{
+    width: 100%;
+    height: 258px;
+    padding-top: 80px;
+}
+
+.productsContainer_Cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productsContainerCardsName{
+    text-align: start;
+    font-family:Sans-Serif;
+    font-size: 14px;
+    color: #747474;
+    padding: 0 25px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.productsContainerCardsBorder{
+    border: 1px solid #dfdfdf87;
+}
+
+.productsContainerCardsBottomContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 20px; 
+    padding-bottom:10px;
+    align-items: center;
+}
+
+.productsContainerCardsPriceDetails{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.productsContainerCardsPriceOffer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.productsContainerCardsOfferButton button{
+    border: 2px solid #ff9800;
+    padding:3px 5px;
+    background-color:#ff9800;
+    color: #fff;
+    font-weight: bold;
+}
+
+.productsContainerCardsPriceses{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family:Helvetica;
+    font-size: 14px;
+}
+
+.productsContainerCardsPriceses h3:nth-child(2){
+    text-decoration: line-through;
+    background:transparent;
+    color:#747474;
+    opacity: 0.5;
+}
+
+@media screen and (min-width:428px) and (max-width:768px)
+{
+    .productsContainerCardsName{
+        font-size: 18px;
+        font-family:"OpenSans-Light"
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:990px)
+{
+    .productsContainerCardsName{
+        font-size: 20px;
+        font-family:"OpenSans-Light"
+    }
+}
+
+
+/*Image Overlay Effect start*/
+.OurProductsContainerCardsBlock1 {
+    position: relative;
+  }
+  
+  .imageOverlayStyle {
+    display: block;
+    width: 100%;
+  }
+  
+  .imageOverlayViewStyle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+  
+  .imageOverlayViewStyle > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+  
+  .imageOverlayViewStyle:hover {
+    opacity: 1;
+    /* backdrop-filter: blur(5px); */
+    border-radius: 15px 15px 0 0;
+    transition: opacity 0.5s;
+  }
+  
+  .imageOverlayViewStyle:hover > * {
+    transform: translateY(0);
+  }
+  
+  .imageOverlayViewStyle button {
+    padding: 12px 32px;
+    width: 50%;
+    font-size: 12px;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  .imageOverlayViewStyle button:nth-child(1) {
+    outline: none;
+    background-color: #ff9800;
+    border: 1px solid #ff9800;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .imageOverlayViewStyle button:nth-child(2) {
+    outline: none;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-weight: bold;
+  }
+
+  /* image over lay effect end */
+
+/*---Latest updates--- */
+.updatesOverlay{
+    display: none;
+}

@@ -1,0 +1,247 @@
+.offersUpdatesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 200px;
+  text-align: center;
+}
+
+.offersUpdatesInsideContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.offersUpdatesInsideContainer h3 {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.offersUpdatesInsideContainer p {
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+}
+.offersUpdatesInputs input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.offersUpdatesInputs input[type="text"] {
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  opacity: 0.5;
+}
+.offersUpdatesInputs input[type="submit"] {
+  position: relative;
+  left: -5px;
+  border-radius: 0px 8px 8px 0px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+  color: orange;
+}
+
+@media screen and (max-width:428px)
+{
+    .offersUpdatesContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+        text-align: center;
+      }
+    
+      .offersUpdatesInsideContainer {
+        display: flex;
+        flex-direction: column;
+        gap:16px;
+      }
+
+      .offersUpdatesInsideContainer h3 {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        padding-top:60px;
+        color: #fff;
+        width: 90%;
+        margin: auto;
+      }
+      .offersUpdatesInsideContainer p {
+        font-size: 16px;
+        font-style: italic;
+        color: #fff;
+      }
+
+      .offersUpdatesInputs input {
+        position: relative;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+      .offersUpdatesInputs input[type="text"] {
+        font-family:"OpenSans-Medium";
+        max-width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 0 20px;
+        border-radius: 8px;
+        background-color: antiquewhite;
+        opacity: 0.5;
+      }
+
+      .offersUpdatesInputs input[type="submit"] {
+        position: relative;
+        font-family:"OpenSans-Medium";
+        text-transform: uppercase;
+        left: -5px;
+        border-radius: 0px 8px 8px 0px;
+        max-width: 100px;
+        height: 50px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: #fff;
+        color: orange;
+      }
+      
+}
+
+@media screen and (min-width:428px) and (max-width:768px)
+{
+  .offersUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .offersUpdatesInsideContainer {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+  }
+
+  .offersUpdatesInsideContainer h3 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top:60px;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+  }
+  .offersUpdatesInsideContainer p {
+    font-size: 16px;
+    font-style: italic;
+    color: #fff;
+  }
+
+  .offersUpdatesInputs input {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .offersUpdatesInputs input[type="text"] {
+    font-family:"OpenSans-Medium";
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    opacity: 0.5;
+  }
+
+  .offersUpdatesInputs input[type="submit"] {
+    position: relative;
+    font-family:"OpenSans-Medium";
+    text-transform: uppercase;
+    left: -5px;
+    border-radius: 0px 8px 8px 0px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: orange;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px)
+{
+  .offersUpdatesInputs input[type="text"] {
+    font-family:"OpenSans-Medium";
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    opacity: 0.5;
+  }
+
+  .offersUpdatesInputs input[type="submit"] {
+    position: relative;
+    font-family:"OpenSans-Medium";
+    text-transform: uppercase;
+    left: -5px;
+    border-radius: 0px 8px 8px 0px;
+    max-width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: orange;
+  }
+}
+
+@media screen  and (min-width:428px)
+{
+  .offersUpdatesInputs input[type="text"] {
+    font-family:"OpenSans-Medium";
+    width: 280px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    opacity: 0.5;
+  }
+
+  .offersUpdatesInputs input[type="submit"] {
+    position: relative;
+    font-family:"OpenSans-Medium";
+    text-transform: uppercase;
+    left: -5px;
+    border-radius: 0px 8px 8px 0px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+    color: orange;
+  }
+}
+

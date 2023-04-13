@@ -1,0 +1,666 @@
+
+.FooterMainContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.FooterContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding: 100px 200px;
+}
+
+.FooterContainerLeftContactNumb a{
+    color: #fff;
+}
+
+.FooterContainerLeft{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.FooterContainerLeftHeading h3{
+    font-family: "OpenSans-Light";
+    font-size: 18px;
+    color: #fff;
+}
+
+.FooterContainerLeftContact{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.FooterContainerContact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.FooterContainerLeftContact1{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.FooterContainerLeftContact1Icon{
+    color: #ff9800;
+    font-size: 25px;
+}
+
+.FooterContainerLeftContact1Heading h3{
+    font-family: "OpenSans-Medium";
+    color: #ff9800;
+    font-weight: 900;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+
+.FooterContainerLeftContactNumb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.FooterContainerLeftContactNumb a{
+    color: #fff;
+}
+
+.FooterContainerLeftContactNumb h3:hover{
+    cursor: pointer;
+}
+.FooterContainerLeftContactNumb {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .FooterContainerLeftContactNumb .tooltiptext {
+    visibility: hidden;
+    width:40px;
+    background-color:#fff;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left:30%;
+    margin-left: -60px;
+    box-shadow: 0 6px 30px 0 #0000001b;
+  }
+
+  .FooterContainerLeftContactNumb .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  .FooterContainerLeftContactNumb:hover .tooltiptext {
+    visibility: visible;
+  }
+.FooterContainerLeftContactNumb h3:nth-child(2){
+    font-size: 11px;
+    color: #e4e4e4;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.FooterContainerLeftContactNumb h3{
+    font-family: "OpenSans-light";
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+    color: #fff;  
+}
+
+.FooterContainerBottomLeft a{
+    color:#ff9800;
+    font-family: "OpenSans-light";
+    font-size:10px;
+}
+
+.FooterContainerRight{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    color: #fff;
+}
+
+.FooterContainerRightProductsHeading h3{
+    font-family: "OpenSans-Light";
+    font-size: 18px;
+    color: #fff;
+}
+
+.FooterContainerRightProductsList ul{
+    font-family:"OpenSans-Light";
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left:15px;
+}
+
+.FooterContainerRightProductsList ul:hover{
+    cursor: pointer;
+}
+.FooterContainerRightProductsList li{
+    padding-left:6px;
+    font-size: 6px;
+}
+
+.FooterContainerRightProductsList span{
+    font-family:"OpenSans-Light";
+    font-size: 14px;
+    font-weight:400px;
+    padding: 12px;
+}
+
+
+
+.FooterContainerRightProductsInput input{
+    width: 300px;
+    height: 25px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.FooterContainerRightProductsSocialMedia{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.FooterContainerRightProductsSocialMediaHeading h3{
+    font-family: "OpenSans-Medium";
+    font-size: 18px;
+    color: #fff;
+}
+
+.FooterContainerRightProductsSocialMediaIcons{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.FooterContainerRightProductsSocialMediaIcons a{
+    color: #fff;
+}
+
+.FooterContainerRightProductsSocialMediaIcons a:hover{
+    color:rgb(117, 243, 117);
+}
+
+.FooterBottomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 200px;
+    background-color:rgba(0,0,0,0.65);
+   
+}
+.FooterContainerBottomLeft{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    align-items: center;
+}
+
+.FooterContainerBottomLeft h3{
+    font-family:"OpenSans-Light";
+    font-size: 10px;
+    color: #bbb;
+}
+
+.FooterContainerBottomLeft div{
+    border: 1px solid #bbb;
+    height: 15px;
+}
+
+.FooterContainerBottomLeft h3:nth-child(4){
+    font-family:"OpenSans-Light";
+    font-size: 10px;
+    color: #ff9800;
+    border-bottom: 1px solid #ff9800;
+}
+
+.FooterContainerBottomRight{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    font-family:"OpenSans-Light";
+    font-size: 10px;
+    color: #bbb;
+}
+
+.FooterContainerBottomRight h3{
+    font-family:"OpenSans-Light";
+    font-size: 10px;
+    color: #bbb;
+}
+
+.FooterContainerBottomRight li span{
+    font-family:"OpenSans-Light";
+    font-size: 10px;
+    color: #ff9800;
+    border-bottom: 1px solid #ff9800;
+    cursor: pointer;
+}
+
+@media screen and (max-width:428px)
+{
+    .FooterMainContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.6);
+        padding-top: 20px;
+    }
+
+    .FooterContainer{
+        display: flex;
+        flex-direction:column;
+        gap: 60px;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .FooterContainerLeft{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .FooterContainerLeftHeading h3{
+        font-family: "OpenSans-Light";
+        font-size:20px;
+        color: #fff;
+    }
+    .FooterContainerLeftContactNumb{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .FooterContainerContact{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1{
+        display: flex;
+        flex-direction: row;
+        gap:15px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1Icon{
+        color: #ff9800;
+        font-size: 20px;
+    }
+
+    .FooterContainerLeftContact1Heading h3{
+        font-family: "OpenSans-Light";
+        color: #ff9800;
+        font-weight: 900;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+
+    .FooterContainerRight{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsHeading h3{
+        font-family: "OpenSans-Light";
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsList ul{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .FooterContainerRightProductsList li{
+        /* padding-left:20px; */
+        font-size: 6px;
+        text-align: center;
+    }
+    
+    .FooterContainerRightProductsList span{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        font-weight:400px;
+    }
+    .FooterContainerRightProductsInput input{
+        width: 300px;
+        height: 25px;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 4px;
+    }
+    
+    .FooterContainerRightProductsSocialMedia{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    
+    .FooterContainerRightProductsSocialMediaHeading h3{
+        font-family: "OpenSans-Medium";
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsSocialMediaIcons{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        margin: auto;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+
+    .FooterBottomContainer{
+        display: flex;
+        flex-direction:column;
+        gap:20px;
+        padding:15px 10px;
+        background-color:rgba(0,0,0,0.65);
+        margin-bottom:68px;
+    }
+}
+
+@media screen and (min-width:428px) and (max-width:768px)
+{
+    .FooterMainContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.6);
+        padding-top: 20px;
+    }
+
+    .FooterContainer{
+        display: flex;
+        flex-direction:column;
+        gap: 60px;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .FooterContainerLeft{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .FooterContainerLeftHeading h3{
+        font-family: "OpenSans-Light";
+        font-size:20px;
+        color: #fff;
+    }
+
+    
+    .FooterContainerLeftContactNumb{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .FooterContainerContact{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1{
+        display: flex;
+        flex-direction: row;
+        gap:15px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1Icon{
+        color: #ff9800;
+        font-size: 20px;
+    }
+
+    .FooterContainerLeftContact1Heading h3{
+        font-family: "OpenSans-Light";
+        color: #ff9800;
+        font-weight: 900;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+
+    .FooterContainerRight{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsHeading h3{
+        font-family: "OpenSans-Light";
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsList ul{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+    }
+    
+    .FooterContainerRightProductsList li{
+        padding-left:20px;
+        font-size: 6px;
+        text-align: center;
+    }
+    
+    .FooterContainerRightProductsList span{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        font-weight:400px;
+    }
+    .FooterContainerRightProductsInput input{
+        width: 300px;
+        height: 25px;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 4px;
+    }
+    
+    .FooterContainerRightProductsSocialMedia{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    
+    .FooterContainerRightProductsSocialMediaHeading h3{
+        font-family: "OpenSans-Medium";
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsSocialMediaIcons{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        margin: auto;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+
+    .FooterBottomContainer{
+        display: flex;
+        flex-direction:column;
+        gap:20px;
+        padding:15px 10px;
+        background-color:rgba(0,0,0,0.65);
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:990px)
+{
+    .FooterMainContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0,0,0,0.6);
+        padding-top: 20px;
+    }
+
+    .FooterContainer{
+        display: flex;
+        flex-direction:column;
+        gap: 60px;
+        padding: 50px 20px;
+        text-align: center;
+    }
+    .FooterContainerLeft{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .FooterContainerLeftHeading h3{
+        font-family: "OpenSans-Light";
+        font-size:20px;
+        color: #fff;
+    }
+    .FooterContainerLeftContactNumb{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .FooterContainerContact{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1{
+        display: flex;
+        flex-direction: row;
+        gap:15px;
+        margin: auto;
+    }
+
+    .FooterContainerLeftContact1Icon{
+        color: #ff9800;
+        font-size: 20px;
+    }
+
+    .FooterContainerLeftContact1Heading h3{
+        font-family: "OpenSans-Light";
+        color: #ff9800;
+        font-weight: 900;
+        font-size: 12px;
+        text-transform: uppercase;
+        line-height: 20px;
+    }
+
+    .FooterContainerRight{
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsHeading h3{
+        font-family: "OpenSans-Light";
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsList ul{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+    }
+    
+    .FooterContainerRightProductsList li{
+        padding-left:20px;
+        font-size: 6px;
+        text-align: center;
+    }
+    
+    .FooterContainerRightProductsList span{
+        font-family:"OpenSans-Light";
+        font-size: 14px;
+        font-weight:400px;
+    }
+    .FooterContainerRightProductsInput input{
+        width: 300px;
+        height: 25px;
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 4px;
+    }
+    
+    .FooterContainerRightProductsSocialMedia{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    
+    .FooterContainerRightProductsSocialMediaHeading h3{
+        font-family: "OpenSans-Medium";
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    .FooterContainerRightProductsSocialMediaIcons{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        margin: auto;
+        font-size: 20px;
+        opacity: 0.5;
+    }
+
+    .FooterBottomContainer{
+        display: flex;
+        flex-direction:row;
+        gap:30px;
+        padding:15px 20px;
+        justify-content: space-around;
+        background-color:rgba(0,0,0,0.65);
+    }
+}
+

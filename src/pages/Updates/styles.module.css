@@ -1,0 +1,180 @@
+.updatesContainer {
+  background-color: #f6f6f6;
+}
+
+.updatesBottomContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets//images/Banner.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.latestUpadtesCardContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  justify-content: center;
+}
+
+.latestUpdatesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+  padding: 50px 200px;
+  background-color: #ededed;
+}
+
+.latestUpdatesHeading h3 {
+  font-family: "OpenSans-Light";
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.latestUpdateCards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border-radius: 15px;
+  background-blend-mode: luminosity;
+  box-shadow: 0 6px 30px 0 #0000001b;
+  background-image: linear-gradient(#fff, #fff);
+  border: solid 1px #e6e6e6;
+  width: 500px;
+  overflow: hidden;
+  opacity: 1;
+}
+.latestUpdates_img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 0px;
+  transition: 0.5s ease;
+}
+
+.latestUpdatesBottomDesc {
+  display: flex;
+  flex-direction: row;
+  /* gap: 24px; */
+  align-items: center;
+}
+
+.latestUpdatesBottomDesc h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Arial;
+  padding-right: 24px;
+  margin-right: 20px;
+  border-right: 1px solid #bbb;
+}
+
+.latestUpdatesBottomHeading h3 {
+  color: #ff9800;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.latestUpdateCards:hover .latestUpdates_img {
+  transform: scale(1.25);
+  transition: 0.5s ease;
+}
+.updatesOverlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  transition: 0.5s ease;
+}
+.latestUpdateCards:hover .updatesOverlay {
+  background-color: #0b0b0b91;
+  transform: scale(1.25);
+}
+
+/* Media start */
+
+/* Tablet view from 768px to 989px start */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .latestUpadtesCardContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .latestUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    padding: 50px 100px;
+  }
+
+  .latestUpdateCards {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Tablet view from 768px to 989px End */
+
+/* Tablet View Start */
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .latestUpadtesCardContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .latestUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ededed;
+  }
+
+  .latestUpdateCards {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+/* Tablet View End */
+
+/* Mobile View start */
+@media screen and (max-width: 428px) {
+  .latestUpadtesCardContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .latestUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ededed;
+  }
+
+  .latestUpdateCards {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+/* Mobile View End */
+
+/* Media End */

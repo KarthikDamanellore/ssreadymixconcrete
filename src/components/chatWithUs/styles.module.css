@@ -1,0 +1,96 @@
+.ChatwithUSContainer {
+  background-color: rgba(56, 56, 56, 0.66);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 11%;
+  height: 50px;
+  position: fixed;
+  right: -67px;
+  top: 50%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transform: rotate(90deg);
+  z-index: 999;
+}
+
+.ChatwithUSContainer img {
+  transform: rotate(-90deg);
+  width: 28px;
+  height: 28px;
+}
+
+.ChatwithUSContainer h6 {
+  color: #fff;
+  font-family: "OpenSans-Light";
+  font-weight: lighter;
+  font-size: 16px;
+  transform: rotate(-180deg);
+}
+
+/* Media Query Start */
+
+/* Max-width upto 1400px start */
+@media screen and (min-width: 990px) and (max-width: 1400px) {
+  .ChatwithUSContainer {
+    position: fixed;
+    width: 25%;
+    height: 45px;
+    right: -110px;
+    top: 60%;
+  }
+}
+
+/* Max-width upto 1400px End */
+
+/* View From 768px to 990px start */
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .ChatwithUSContainer {
+    position: fixed;
+    width: 25%;
+    height: 45px;
+    right: -100px;
+    top: 60%;
+  }
+}
+
+/* View From 768px to 990px End */
+
+/* Tablet From 428px from 768px start */
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .ChatwithUSContainer {
+    position: fixed;
+    width: 25%;
+    height: 45px;
+    right: -65px;
+    top: 60%;
+  }
+}
+/* Tablet From 428px from 768px End */
+
+/* Mobile satrt */
+@media screen and (max-width: 428px) {
+  .ChatwithUSContainer {
+    position: fixed;
+    width: 40%;
+    height: 38px;
+    right: -59px;
+    top: 65%;
+  }
+
+  .ChatwithUSContainer img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .ChatwithUSContainer h6 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  /* Mobile End */
+}
+/* Media Query End */

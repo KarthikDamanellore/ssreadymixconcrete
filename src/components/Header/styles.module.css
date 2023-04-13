@@ -1,0 +1,54 @@
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-end;
+    padding-right: 100px;
+    background: #5d5740;
+    opacity: 0.6;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:428px)
+{
+    .HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: flex-end;
+    padding: 4px 6px ;
+    opacity: 0.6;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color:orange;
+}
+}
+
+@media screen and (min-width:428px) and (max-width:768px)
+{
+    .HeaderContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        justify-content: flex-end;
+        padding:0px 10px 0px 20px;
+        opacity: 0.6;
+        color: #fff;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+        background-color:orange;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px)
+{
+    .HeaderContainer{
+        background-color: #bbb;
+    }
+}

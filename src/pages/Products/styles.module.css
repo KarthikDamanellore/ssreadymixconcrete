@@ -1,0 +1,75 @@
+.productsBottomContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets//images/Banner.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourProductContainer {
+  max-width: 1170px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 32px;
+}
+
+.ourProductsContainer {
+  background-color: #f6f6f6;
+  padding-bottom: 100px;
+}
+
+.ourProductsContainerHeading h3 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  color: #666;
+  padding-top: 50px;
+}
+
+/* Media  query start */
+
+/* Tablet View Start */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .ourProductContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+    justify-content: center;
+  }
+}
+/* Tablet View End */
+
+/* Mobile to Tablet View start */
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  .ourProductContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 32px;
+    justify-content: center;
+    max-width: 768px;
+  }
+
+  .productsContainerCards {
+    width: 450px;
+  }
+}
+/* Mobile to Tablet View End */
+
+/* Mobile View start */
+@media screen and (max-width: 428px) {
+  .ourProductContainer {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .ourProductsContainerHeading h3 {
+    padding-bottom: 30px;
+  }
+}
+
+/* Mobile View End */
+
+/* Media Query End */

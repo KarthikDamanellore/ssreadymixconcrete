@@ -1,0 +1,947 @@
+/*<----Main start----> */
+
+.mobileNavbarContainer {
+  display: none;
+}
+
+.NavbarMenuItems {
+  color: #fff;
+}
+.bannerContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../../src/assets/images/Banner.jpeg");
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bannerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  text-align: center;
+}
+
+@keyframes wave-text {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.bannerHeading h1 {
+  font-family: "OpenSans-Bold";
+  text-align: center;
+  line-height: 61px;
+  font-weight: 800;
+  font-size: 60px;
+  color: #fff;
+  padding-top: 100px;
+  width: 70%;
+  margin: auto;
+  animation: SlideUp 2s linear forwards;
+  opacity: 0;
+}
+
+/* Animation start */
+@keyframes SlideUp {
+  0% {
+    transform: translateY(250px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Animation End */
+
+.bannerContactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+  font-family: "OpenSans-Bold";
+  opacity: 0;
+  animation: SlideUp 2s linear forwards 2s;
+}
+
+.bannerContactDetails {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerContactPhone {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.bannerContactLocation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.bannerContactButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 45px;
+}
+
+.bannerContactButtons button {
+  border-radius: 50px;
+  padding: 12px 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.bannerContactButtons button:nth-child(1) {
+  background-color: #ff9800;
+  outline: none;
+  border: 2px solid #ff9800;
+}
+
+.bannerContactButtons button:nth-child(2) {
+  outline: none;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*<----Main End----> */
+
+/*<----Our Products start----> */
+
+.ourProductsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #fff;
+}
+
+.ourProductsContainerHeading h3 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  color: #666;
+  padding-top: 100px;
+}
+
+.ourProductsContainerCards {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  gap: 30px;
+  padding: 50px 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourProductsContainerCards button {
+  width: 100px;
+  height: 50px;
+  align-items: center;
+}
+
+.ourProductsContainerHeading h3 {
+  font-family: Helvetica;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+  color: #666;
+}
+
+.OurProductsContainerCards {
+  border-radius: 15px;
+  background-blend-mode: luminosity;
+  box-shadow: 0 6px 30px 0 #0000001b;
+  background-image: linear-gradient(#fff, #fff);
+  border: solid 1px #e6e6e6;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ourProductsBottomHeading h3 {
+  color: #ff9800;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+/*<----Our Products End---> */
+
+/* <--- Latest Updates Start */
+
+.latestUpadtesCardContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.latestUpdatesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  text-align: center;
+  padding: 50px 200px;
+  background-color: #ededed;
+}
+
+.latestUpdatesHeading h3 {
+  font-family: "OpenSans-Light";
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.latestUpdateCards {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border-radius: 15px;
+  background-blend-mode: luminosity;
+  box-shadow: 0 6px 30px 0 #0000001b;
+  background-image: linear-gradient(#fff, #fff);
+  border: solid 1px #e6e6e6;
+  width: 500px;
+  overflow: hidden;
+}
+.latestUpdates_img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 0px;
+}
+
+.latestUpdatesBottomDesc {
+  display: flex;
+  flex-direction: row;
+  /* gap: 24px; */
+  align-items: center;
+}
+
+.latestUpdatesBottomDesc h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #bbb;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: Arial;
+  padding-right: 24px;
+  margin-right: 20px;
+  border-right: 1px solid #bbb;
+}
+
+.latestUpdatesBottomHeading h3 {
+  color: #ff9800;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.latestUpdateCards:hover .latestUpdates_img {
+  transform: scale(1.25);
+  transition: 0.5s ease;
+}
+.updatesOverlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  top: 0;
+  transition: 0.5s ease;
+}
+.latestUpdateCards:hover .updatesOverlay {
+  background-color: #0b0b0b91;
+  transform: scale(1.25);
+}
+/* <--- Latest Updates End */
+
+/* Ourpage start */
+.OurpageContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 50px 200px;
+  text-align: center;
+  background-color: #ededed;
+}
+
+.ourPageCardName {
+  text-align: center;
+  padding-top: 15px;
+}
+.ourPageContainerCard {
+  width: 500px;
+}
+
+.OurpageContainerHeading h3 {
+  font-family: "OpenSans-Light";
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.OurpageContainerBottomHeading h3 {
+  color: #ff9800;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* PhotoGallery Start */
+.photoGalleryContainer {
+  /* padding: 50px 200px; */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.photoGalleryHeading h3 {
+  font-family: "OpenSans-Light";
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.photoGalleryPhotos {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.photoGalleryBottomHeading {
+  color: #ff9800;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+/* PhotoGallery End */
+
+/*<---backgroundImageContainer start---> */
+
+.backgroundImageContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/Banner.jpeg");
+  background-attachment: fixed;
+}
+/*<---backgroundImageContainer End---> */
+.bannerMobileContainer {
+  display: none;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 428px) {
+  /* ---- Banner content start */
+  .bannerContent {
+    display: none;
+  }
+  .bannerContainer {
+    height: 0px;
+    background: none;
+  }
+  .bannerMobileContainer {
+    display: block;
+  }
+
+
+  .bannerMobileInsideContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .bannerMobileBackgroungImg img {
+    background-size: cover;
+    width: 100%;
+    padding-top: 110px;
+  }
+  .bannerMobileHeading h1 {
+    font-family: "OpenSans-Bold";
+    color: #333333;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bannerDescription p {
+    font-family: "OpenSans-Medium";
+    color: #4a4a4a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    width: 93%;
+    margin: auto;
+  }
+
+  .bannerMobileContactButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: auto;
+  }
+
+  .bannerMobileContactButtons button {
+    border-radius: 50px;
+    padding: 8px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 12px;
+  }
+  .bannerMobileContactButtons button:nth-child(1) {
+    font-family: "HelveticaNeue-Medium";
+    font-weight: bold;
+    background-color: #ff9800;
+    border: 2px solid #ff9800;
+    width: 100%;
+  }
+  .bannerMobileContactButtons button:nth-child(2) {
+    font-family: "HelveticaNeue-Medium";
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #222222;
+    color: #222222;
+    width: 100%;
+    margin: auto;
+  }
+
+  /* Banner Content End */
+
+  /* ourProductsContainerHeading  start*/
+  .ourProductsContainerHeading h3 {
+    padding: 40px;
+    text-transform: lowercase;
+  }
+  /* ourProductsContainerHeading  End*/
+
+  /* Latest Updates start */
+
+  .latestUpdatesMainContainer {
+    padding-top: 40px;
+  }
+  .latestUpadtesCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+  }
+
+  .latestUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    text-align: center;
+    padding: 30px 25px;
+    background-color: #ededed;
+  }
+
+  .latestUpdatesHeading {
+    font-size: 20px;
+    text-transform: lowercase;
+  }
+  .latestUpdateCards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    border-radius: 15px;
+    background-blend-mode: luminosity;
+    box-shadow: 0 6px 30px 0 #0000001b;
+    background-image: linear-gradient(#fff, #fff);
+    border: solid 1px #e6e6e6;
+    width: 100%;
+  }
+  .latestUpdates_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 0px;
+  }
+
+  .latestUpdatesBottomDesc {
+    display: flex;
+    flex-direction: row;
+    /* gap: 24px; */
+    align-items: center;
+  }
+
+  .latestUpdatesBottomDesc h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Arial;
+    padding-right: 24px;
+    margin-right: 20px;
+    border-right: 1px solid #bbb;
+  }
+
+  .latestUpdatesBottomHeading h3 {
+    color: #ff9800;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 30px;
+  }
+  /* Latest Updates End */
+
+  /* Photo Gallery Start */
+
+  .photoGalleryContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .photoGalleryHeading h3 {
+    padding-top: 50px;
+    font-family: "OpenSans-Medium";
+    color: #747474;
+    text-transform: lowercase;
+  }
+
+  .photoGalleryBottomHeading h3 {
+    padding-bottom: 50px;
+  }
+  /* Photo Gallery End */
+
+  /* ourpage start */
+  .OurpageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ededed;
+  }
+
+  .ourPageCardName {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .ourPageContainerCard {
+    width: 100%;
+  }
+
+  .OurpageContainerHeading h3 {
+    font-family: "OpenSans-Medium";
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: lowercase;
+  }
+
+  .OurpageContainerBottomHeading h3 {
+    font-family: "OpenSans-Bold";
+    color: #ff9800;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* ourpage end */
+
+  /* Mobile Navbar start */
+  .mobileNavbarContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 50px 50px;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: beige;
+    width: 100%;
+    display: block;
+  }
+  /* Mobile Navbar End */
+}
+
+/*--------- Tablet Devices-------------- */
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+  /* Banner content start */
+  .bannerContent {
+    display: none;
+  }
+  .bannerContainer {
+    height: 0px;
+    background: none;
+  }
+  .bannerMobileContainer {
+    display: block;
+  }
+
+  .bannerMobileInsideContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .bannerMobileBackgroungImg img {
+    background-size: cover;
+    width: 100%;
+    padding-top: 110px;
+  }
+  .bannerMobileHeading h1 {
+    font-family: "OpenSans-Bold";
+    color: #333333;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 100%;
+    margin: auto;
+  }
+
+  .bannerDescription p {
+    font-family: "OpenSans-Medium";
+    color: #4a4a4a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bannerMobileContactButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    margin: auto;
+  }
+
+  .bannerMobileContactButtons button {
+    border-radius: 50px;
+    padding: 8px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 12px;
+    width: 60%;
+    margin: auto;
+  }
+  .bannerMobileContactButtons button:nth-child(1) {
+    font-family: "HelveticaNeue-Medium";
+    font-weight: bold;
+    background-color: #ff9800;
+    border: 2px solid #ff9800;
+    width: 100%;
+  }
+  .bannerMobileContactButtons button:nth-child(2) {
+    font-family: "HelveticaNeue-Medium";
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #222222;
+    color: #222222;
+    width: 100%;
+  }
+
+  /* Banner content End */
+
+  /* Latest Updates start */
+  .latestUpdatesMainContainer {
+    padding-top: 40px;
+  }
+  .latestUpadtesCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+  }
+
+  .latestUpdatesContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 60px;
+    text-align: center;
+    padding: 30px 50px;
+    background-color: #ededed;
+  }
+
+  .latestUpdatesHeading h3 {
+    font-family: "OpenSans-Light";
+    font-size: 30px;
+    font-weight: lighter;
+  }
+
+  .latestUpdateCards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    border-radius: 25px;
+    background-blend-mode: luminosity;
+    box-shadow: 0 6px 30px 0 #0000001b;
+    background-image: linear-gradient(#fff, #fff);
+    border: solid 1px #e6e6e6;
+    width: 100%;
+  }
+  .latestUpdates_img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 0px;
+  }
+
+  .latestUpdatesBottomDesc {
+    display: flex;
+    flex-direction: row;
+    /* gap: 24px; */
+    align-items: center;
+  }
+
+  .latestUpdatesBottomDesc h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Arial;
+    padding-right: 24px;
+    margin-right: 20px;
+    border-right: 1px solid #bbb;
+  }
+
+  /* over ride text style products card */
+
+  .productsContainerCardsName {
+    font-size: 18px;
+  }
+
+  .latestUpdatesBottomHeading h3 {
+    color: #ff9800;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  /* Latest Updates End */
+
+  /* ourpage start */
+  .OurpageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 40px;
+    text-align: center;
+    background-color: #ededed;
+  }
+
+  .ourPageCardName {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .ourPageContainerCard {
+    width: 100%;
+  }
+
+  .OurpageContainerHeading h3 {
+    font-family: "OpenSans-Light";
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .OurpageContainerBottomHeading h3 {
+    font-family: "OpenSans-Bold";
+    color: #ff9800;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+  /* ourpage end */
+}
+
+/* Tablet view from 768px to 990px */
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  /* Main start */
+
+  .bannerMobileContainer {
+    display: none;
+  }
+
+  .bannerContent {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .bannerHeading h1 {
+    font-family: "OpenSans-Bold";
+    text-align: center;
+    line-height: 61px;
+    font-weight: 800;
+    font-size: 60px;
+    color: #fff;
+    padding: 100px 20px 0px 20px;
+    width: 100%;
+    margin: auto;
+    animation: SlideUp 2s linear forwards;
+    opacity: 0;
+  }
+
+  /* Animation start */
+  @keyframes SlideUp {
+    0% {
+      transform: translateY(250px);
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /* Animation End */
+
+  .bannerContactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    font-family: "OpenSans-Bold";
+    opacity: 0;
+    animation: SlideUp 2s linear forwards 2s;
+  }
+
+  .bannerContactDetails {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bannerContactPhone {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .bannerContactLocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bannerContactButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .bannerContactButtons button {
+    border-radius: 50px;
+    padding: 12px 32px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .bannerContactButtons button:nth-child(1) {
+    background-color: #ff9800;
+    outline: none;
+    border: 2px solid #ff9800;
+  }
+
+  .bannerContactButtons button:nth-child(2) {
+    outline: none;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  /*<----Main End----> */
+
+  /* Latest updates start */
+
+  .latestUpdatesContainer {
+    padding: 50px 140px;
+  }
+  .latestUpadtesCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .latestUpdateCards {
+    width: 100%;
+  }
+
+  .latestUpdates_img {
+    height: 300px;
+  }
+
+  .productsContainerCardsName {
+    font-size: 20px;
+  }
+  /* Latest updates End */
+
+  /* our pages start */
+
+  .OurpageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 110px;
+    text-align: center;
+    background-color: #ededed;
+  }
+
+  .ourPageContainerCard {
+    width: 100%;
+    border-radius: 15px;
+  }
+  /* our pages end */
+}
+
+/* Mobile Navbar start */
+.mobileNavbarContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 50px 50px;
+  justify-content: space-between;
+  font-size: 30px;
+  background-color: beige;
+  width: 100%;
+  display: none;
+}
+/* Mobile Navbar End */
+
+
