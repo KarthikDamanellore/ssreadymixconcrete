@@ -1,9 +1,9 @@
-import photoGalleryImg1 from "../../assets/images/photoGallery1.avif";
-import photoGalleryImg2 from "../../assets/images/photoGallery2.avif";
-import photoGalleryImg3 from "../../assets/images/photoGallery3.avif";
+import photoGalleryImg1 from "../../assets/images/photoGallery1.png";
+import photoGalleryImg2 from "../../assets/images/photoGallery2 (2).png";
+import photoGalleryImg3 from "../../assets/images/photoGallery3.png";
 import photoGalleryImg4 from "../../assets/images/photoGallery4.avif";
 import photoGalleryImg5 from "../../assets/images/photoGallery5.avif";
-import photoGalleryImg6 from "../../assets/images/photoGallery6.avif";
+import photoGalleryImg6 from "../../assets/images/photoGallery6.png";
 
 
 const photoGallery=[{

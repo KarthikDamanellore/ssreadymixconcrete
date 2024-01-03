@@ -72,7 +72,7 @@ const Contact = () => {
 
       {/* Map start */}
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.6272173595826!2d78.604568175038!3d17.52529988338552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9d2ea69b3613%3A0x2737550c567cb9b6!2sSS%20Ready%20Mix%20Concrete%20(%20Sri%20Sreenidhi%20Rmc%20)!5e0!3m2!1sen!2sin!4v1680691462784!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3786.7273288635133!2d78.39933131489033!3d18.359719987502853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDIxJzM1LjAiTiA3OMKwMjQnMDUuNSJF!5e0!3m2!1sen!2sin!4v1681461271698!5m2!1sen!2sin"
         style={{
           width: "100%",
           height: "500px",

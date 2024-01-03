@@ -9,7 +9,7 @@
 }
 .bannerContainer {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../../src/assets/images/Banner.jpeg");
+    url("../../../src/assets/images/BannerMain.png");
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -124,7 +124,7 @@
 .ourProductsContainer {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10px;
   background-color: #fff;
 }
 
@@ -180,6 +180,7 @@
   font-weight: 700;
   text-align: center;
   cursor: pointer;
+  padding-top: 15px;
 }
 /*<----Our Products End---> */
 
@@ -343,8 +344,9 @@
 
 .backgroundImageContainer {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../assets/images/Banner.jpeg");
+    url("../../assets/images/BackgroundImageContainer\ \(2\).png");
   background-attachment: fixed;
+  background-size: cover;
 }
 /*<---backgroundImageContainer End---> */
 .bannerMobileContainer {

@@ -6,7 +6,7 @@ const contactData = [
   {
     Icon: <HiPhone/>,
     Heading: "PHONE",
-    Desc: " 9848269272",
+    Desc: " 9951839672",
     border:<div></div>,
   },
   {
@@ -18,7 +18,7 @@ const contactData = [
   {
     Icon:<MdEmail/>,
     Heading: "EMAIL",
-    Desc: "ssreadymixconcretehyderabad@gmail.com",
+    Desc: "Chindala.srikarreddy@gmail.com",
   },
 ];
 

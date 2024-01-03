@@ -120,7 +120,7 @@
     font-size: 14px;
     font-style: italic;
     text-decoration: underline;
-    color: #fff;  
+    color: #fff;    
 }
 
 .FooterContainerBottomLeft a{
@@ -191,9 +191,10 @@
 .FooterContainerRightProductsSocialMediaIcons{
     display: flex;
     flex-direction: row;
-    gap:40px;
+    gap:30px;
     font-size: 20px;
     opacity: 0.5;
+    padding: 10px;
 }
 
 .FooterContainerRightProductsSocialMediaIcons a{
@@ -379,7 +380,7 @@
     .FooterContainerRightProductsSocialMediaIcons{
         display: flex;
         flex-direction: row;
-        gap:40px;
+        gap:30px;
         margin: auto;
         font-size: 20px;
         opacity: 0.5;
@@ -515,7 +516,7 @@
     .FooterContainerRightProductsSocialMediaIcons{
         display: flex;
         flex-direction: row;
-        gap:40px;
+        gap:25px;
         margin: auto;
         font-size: 20px;
         opacity: 0.5;

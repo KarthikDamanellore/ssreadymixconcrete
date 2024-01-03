@@ -1,9 +1,10 @@
 import card1 from "../../../src/assets/images/card1.jpg";
-import card2 from "../../../src/assets/images/card2.webp";
-import card3 from "../../../src/assets/images/card3.avif";
-import card4 from "../../../src/assets/images/card4.jpg";
-import card5 from "../../../src/assets/images/card5.jpg";
-import card6 from "../../../src/assets/images/card6.jpg";
+import card2 from "../../../src/assets/images/updates13.jpg";
+import card3 from "../../../src/assets/images/updates7.jpg";
+import card4 from "../../../src/assets/images/update3.jpg";
+import card5 from "../../../src/assets/images/updates9.jpg";
+import card6 from "../../../src/assets/images/updates4.jpg";
+import card7 from "../../../src/assets/images/updates10.jpg";
 
 const cardsData = [{
     cardImg:card1,
@@ -51,7 +52,7 @@ const cardsData = [{
 },
 
 ,{
-    cardImg:card6,
+    cardImg:card7,
     cardName: 'M-40 Grade Concrete',
     cardDiscount: '2% OFF',
     originalPrice: 4900,

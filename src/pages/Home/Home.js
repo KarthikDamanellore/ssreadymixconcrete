@@ -7,7 +7,7 @@ import Header from "../../components/Header/Header";
 import Navbar from "../../components/Navbar/Navbar";
 import OurStory from "../../components/OurStory/OurStory";
 
-import MobileBannerImg from "../../assets/images/MobileBanner.jpeg";
+import MobileBannerImg from "../../assets/images/MobileBanner (2).png";
 // <----Banner Imports End---->
 
 // <----Our Products Import start---->
@@ -74,7 +74,7 @@ const Home = () => {
                     <HiPhone />
                   </div>
                   <div className={styles.bannerContactPhoneNum}>
-                    08048809703
+                  9848269272
                   </div>
                 </div>
                 <div className={styles.bannerContactLocation}>
@@ -82,7 +82,7 @@ const Home = () => {
                     <ImLocation />
                   </div>
                   <div className={styles.bannerContactLocationDetails}>
-                    <h3>Dhammaiguda, India</h3>
+                    <h3>Kamareddy, Telangana</h3>
                   </div>
                 </div>
               </div>
@@ -104,13 +104,15 @@ const Home = () => {
             </div>
             <div className={styles.bannerDescription}>
               <p>
-                SERVIECES: At Sruthi Ready Mixed Concrete ( SRUTHI READY MIX
-                CONCRETE ) is delivered in its completely robotized and
-                electronic cement grouping plants. Sruthi READY MIX Concrete
-                produces and supplies cement blends, which are structured in its
-                well-prepared research centers according to built up strategies
-                to follow different arrangements of Indian Standards. Sruthi
-                READY MIX Concrete's accomplished c...
+                SERVIECES: At Sruthi Ready Mixed Concrete is delivered in its
+                completely robotized and electronic cement grouping plants.
+                sruthi ready mix concrete produces good quality of concrete,and
+                it is follow the Indian standards arrangements.
+                {/* Sruthi READY MIX Concrete produces and supplies cement blends,
+                which are structured in its well-prepared research centers
+                according to built up strategies to follow different
+                arrangements of Indian Standards. Sruthi READY MIX Concrete's
+                accomplished c... */}
               </p>
             </div>
             <div className={styles.bannerMobileContactButtons}>
@@ -126,7 +128,7 @@ const Home = () => {
               >
                 MAKE AN ENQUIRY
               </button> */}
-              <Modal/>
+              <Modal />
             </div>
           </div>
         </div>
@@ -183,7 +185,7 @@ const Home = () => {
           <div className={styles.latestUpadtesCardContainer}>
             {cardOne &&
               cardOne.map((item, index) => {
-                if (index === 0 || index === 1) {
+                if (index === 0 || index === 1) { 
                   return (
                     <ProductsCard
                       key={index}
@@ -250,7 +252,7 @@ const Home = () => {
         {/*<---Photo Gallery End--->*/}
 
         {/* Ourpages start*/}
-        <div className={styles.OurpageContainer}>
+        {/* <div className={styles.OurpageContainer}>
           <div className={styles.OurpageContainerHeading}>
             <h3>Our Pages</h3>
           </div>
@@ -273,7 +275,7 @@ const Home = () => {
           <div className={styles.OurpageContainerBottomHeading}>
             <h3 onClick={() => navigate("/more")}>CHECK ALL PAGES</h3>
           </div>
-        </div>
+        </div> */}
         {/* Ourpages end*/}
 
         {/*---Footer start---*/}

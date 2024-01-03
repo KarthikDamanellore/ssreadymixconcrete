@@ -35,7 +35,7 @@ const Footer = () => {
               </div>
               <div className={FooterStyle.FooterContainerLeftContactNumb}>
                 <h3>
-                  <a href="tel:08048809703">08048809703</a>
+                  <a href="tel:9951839672">9951839672</a>
                 </h3>
                 <h3 className={FooterStyle.tooltiptext}>Call</h3>
               </div>
@@ -52,8 +52,8 @@ const Footer = () => {
               </div>
               <div className={FooterStyle.FooterContainerLeftContactNumb}>
                 <h3>
-                  <a href="mailto:ssreadymixconcretehyderabad@gmail.com">
-                    ssreadymixconcretehyderabad@gmail.com
+                  <a href="mailto:Chindala.srikarreddy@gmail.com">
+                  Chindala.srikarreddy@gmail.com
                   </a>
                 </h3>
               </div>
@@ -70,7 +70,7 @@ const Footer = () => {
               </div>
               <div className={FooterStyle.FooterContainerLeftContactNumb}>
                 <h3 onClick={() => navigate("/contact")}>
-                  Sy.No: 50,51 Haridaspally, Banlaguda,, Dhammaiguda
+                  Sruthi RMC, Near Jeevadhan School, kamareddy, Telangana
                 </h3>
                 <h3>(View map)</h3>
               </div>
@@ -87,8 +87,8 @@ const Footer = () => {
               </div>
               <div className={FooterStyle.FooterContainerLeftContactNumb}>
                 <h3>
-                  <a href="https://www.ssreadymixconcrete.com/" target="_blank">
-                    http://www.ssreadymixconcrete.com
+                  <a href="https://ssreadymixconcrete.web.app" target="_blank">
+                    http://www.sruthireadymixconcrete.com
                   </a>
                 </h3>
               </div>
@@ -152,7 +152,7 @@ const Footer = () => {
               >
                 <FaFacebookSquare />
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com/settings/account?lang=en"
                 target="_blank"
               >
@@ -167,7 +167,7 @@ const Footer = () => {
                 target="_blank"
               >
                 <AiFillPushpin />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -185,7 +185,7 @@ const Footer = () => {
         <div className={FooterStyle.FooterContainerBottomRight}>
           <h3>Report Abuse</h3>
           <li>
-            <span onClick={()=>navigate('/contact')}>Sitemap</span>
+            <span onClick={() => navigate("/contact")}>Sitemap</span>
           </li>
         </div>
       </div>

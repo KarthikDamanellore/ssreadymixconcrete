@@ -1,19 +1,19 @@
 import update1 from "../../../src/assets/images/upadate1.jpg";
 import update3 from "../../../src/assets/images/update3.jpg";
-import update2 from "../../../src/assets/images/updates2.avif";
-import update4 from "../../../src/assets/images/updates4.avif";
-import update5 from "../../../src/assets/images/updates5.avif";
-import update6 from "../../../src/assets/images/updates6.jpg";
-import update7 from "../../../src/assets/images/updates7.avif";
-import update8 from "../../../src/assets/images/card2.webp";
+import update2 from "../../../src/assets/images/update2.jpg";
+import update4 from "../../../src/assets/images/updates4.jpg";
+import update5 from "../../../src/assets/images/updates10.jpg";
+import update6 from "../../../src/assets/images/updates11.jpg";
+import update7 from "../../../src/assets/images/updates12.jpg";
+import update8 from "../../../src/assets/images/updates13.jpg";
 import update9 from "../../../src/assets/images/updates9.jpg";
-import update10 from "../../../src/assets/images/card5.jpg";
+import update10 from "../../../src/assets/images/update3.jpg";
 
 const cardOne = [
   {
     cardOneImg: update1,
     cardOneDesc:
-      "For those seeking high-quality ready-mix concrete in Hyderabad, Sruthi Ready Mixed concrete...",
+      "For those seeking high-quality ready-mix concrete in Kamareddy, Sruthi Ready Mixed concrete...",
     cardOneLeft: "Today",
     cardOneRight: "RedaMore",
   },
@@ -28,28 +28,28 @@ const cardOne = [
   {
     cardOneImg: update2,
     cardOneDesc:
-      "Are you searching for a reliable supplier of top-quality ready-mix concrete in Hydera ...",
+      "Are you searching for a reliable supplier of top-quality ready-mix concrete in Kamareddy ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },
   {
     cardOneImg: update4,
     cardOneDesc:
-      "Introducing the ultimate concrete experience from Sruthi RMC, also known as SS ...",
+      "Introducing the ultimate concrete experience from Sruthi RMC ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },
   {
     cardOneImg: update5,
     cardOneDesc:
-      "If you're in need of high-quality ready-mix concrete in Hyderabad, look no further th ...",
+      "If you're in need of high-quality ready-mix concrete in Kamareddy, look no further th ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },
   {
     cardOneImg: update6,
     cardOneDesc:
-      "If you require top-notch ready-mix concrete in Hyderabad, Sruthi Ready Mixed Concrete is  ...",
+      "If you require top-notch ready-mix concrete in Kamareddy, Sruthi Ready Mixed Concrete is  ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },
@@ -57,7 +57,7 @@ const cardOne = [
   {
     cardOneImg: update7,
     cardOneDesc:
-      "For those seeking high-quality ready-mix concrete in Hyderabad, Sruthi Ready Mixed Concre ...",
+      "For those seeking high-quality ready-mix concrete in Kamareddy, Sruthi Ready Mixed Concre ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },
@@ -65,7 +65,7 @@ const cardOne = [
   {
     cardOneImg: update8,
     cardOneDesc:
-      "Are you searching for a reliable supplier of top-quality ready-mix concrete in Hydera ...",
+      "Are you searching for a reliable supplier of top-quality ready-mix concrete in Kamareddy ...",
     cardOneLeft: "3 Days ago",
     cardOneRight: "RedaMore",
   },

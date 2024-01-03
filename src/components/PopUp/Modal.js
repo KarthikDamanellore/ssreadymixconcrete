@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import {AiOutlineClose} from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -25,21 +25,22 @@ export default function Modal() {
         <div className={styles.modal}>
           <div onClick={toggleModal} className={styles.overlay}></div>
           <div className={styles.modalContent}>
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
+            <h5>Make An Enquiry</h5>
+            <input
+              type="Text"
+              placeholder="Welcome to sruthi ready mix concrete"
+            />
+            <input
+              type="email"
+              placeholder="Your mobile Number/email address"
+            />
+            <button>Submit</button>
             <span className={styles.closeModal} onClick={toggleModal}>
-              <AiOutlineClose/>
+              <AiOutlineClose />
             </span>
           </div>
         </div>
       )}
-    </>  
+    </>
   );
 }
